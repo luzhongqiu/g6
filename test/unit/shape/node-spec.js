@@ -243,5 +243,9 @@ describe('shape node test', () => {
 			
 			canvas.draw();
 		});
+
+		it('clear', () => {
+			canvas.destroy();
+		});
 	});
 });
